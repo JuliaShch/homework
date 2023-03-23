@@ -7,17 +7,17 @@ public class Task3 {
     int maxPeople = 0;
     int maxWeight = 0;
 
-    while(maxPeople <= 6 || maxWeight <= 450){
+    while(true){
       Scanner scanner = new Scanner(System.in);
       System.out.println("Введите значение веса: ");
       int weight = scanner.nextInt();
       maxPeople++;
       maxWeight = weight + maxWeight;
-      if(maxPeople > 6){
+      if(maxPeople == 6){
         System.out.println("Причина, по которой прекращен вход людей в лифт: максимальное количество человек");
         break;
       }
-      if(maxWeight > 450){
+      if(maxWeight >= 450){
         System.out.println("Причина, по которой прекращен вход людей в лифт: максимальный размер веса пассажиров");
         break;
       }
