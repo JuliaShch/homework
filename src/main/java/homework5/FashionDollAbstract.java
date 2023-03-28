@@ -1,6 +1,6 @@
 package main.java.homework5;
 
-public abstract class DollAbstract1 {
+public abstract class FashionDollAbstract {
 
   public void setType(String type) {
     System.out.println("She is " + type);

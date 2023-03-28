@@ -1,6 +1,6 @@
 package main.java.homework5;
 
-public class SellTheDoll<T extends DollAbstract1> {
+public class SellTheDoll<T extends FashionDollAbstract> {
   private int priceDoll;
 
   public void priceBuyDoll(int priceDoll) { // цена, за которую покупаем куклу

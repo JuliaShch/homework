@@ -1,8 +1,9 @@
 package main.java.homework5;
 
-public class Mattel1 extends DollAbstract1 {
+public class MadeToMove extends FashionDollAbstract {
   @Override
   public void isLimited(boolean limited) {
+    System.out.println("The doll isn't limited.");
   }
 
   @Override
