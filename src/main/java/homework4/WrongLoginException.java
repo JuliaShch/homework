@@ -1,7 +1,6 @@
 package main.java.homework4;
 
 public class WrongLoginException extends Exception{
-//  private String message;
 
   public WrongLoginException(String message) {
     super(message);
