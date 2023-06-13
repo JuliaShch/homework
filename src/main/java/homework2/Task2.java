@@ -1,4 +1,4 @@
-package main.java.lesson2;
+package main.java.homework2;
 import java.util.Scanner;
 
 public class Task2 {
